@@ -11,10 +11,53 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Simple Tailwind Starter</title>
+    <title>Testimonial Grid | Tailwind CSS</title>
   </head>
-  <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+      <!-- Grid container -->
+      <div class="text-white">
+        <!-- Box 1 -->
+        <div class="relative p-10 rounded-xl bg-purple-700">
+          <!-- Quote Image -->
+          <img
+            src="#"
+            alt=""
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+          />
+          <!-- Box Header -->
+          <div class="flex z-10 space-x-4">
+            <img
+              src="#"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">Daniel Clifford</h4>
+              <p class="opacity-50">Verified Graduate</p>
+            </div>
+          </div>
+
+          <!-- Large Text -->
+          <p class="relative z-10 mt-6 text-xl">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+            eum maxime commodi tempora ipsa maiores qui quia dicta, vel optio
+            vitae? Recusandae ratione voluptatibus nihil vero minima! Non, eos
+            nisi!
+          </p>
+
+          <!-- Small Text -->
+          <p class="mt-6 opacity-50">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+            perferendis molestiae magnam ratione ipsa, unde sunt quibusdam
+            eligendi odio tempora impedit animi aspernatur? Adipisci aliquid
+            dolor porro, blanditiis maxime nostrum ducimus eum ab molestiae.
+            Animi ullam sint veniam. Quod blanditiis hic similique sed
+            necessitatibus dolor, quibusdam deserunt praesentium impedit nulla.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
